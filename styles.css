@@ -1,0 +1,71 @@
+/*this adds a line underneath the title of my page*/
+h1 {
+    border-bottom-style: solid;
+}
+/*this changes the color and the font of the entire page*/
+body {
+    background-color: rgb(147, 193, 253);
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+/*home page*/
+/*this makes the "about us" paragraph larger*/
+#about {
+    font-size: 20px;
+}
+/*this changes the style of the divs*/
+div {
+    background-color: rgb(192, 223, 250);
+    padding: 20px;
+    border-radius: 5%;
+}
+/*this changes the look of the images within the divs*/
+img {
+    border-style: solid;
+    border-color: rgb(34, 112, 200);
+    border-radius: 5%;
+    border-width: 3px;
+}
+/*this changes the bullet points in lists*/
+ul {
+    list-style-type:square;
+}
+/*contact page*/
+/*this styles the table*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+tr:nth-child(even) {
+    background-color: rgb(192, 223, 250);
+}
+tr:hover {
+    background-color: rgb(78, 112, 190);
+}
+/*adoption page*/
+/*this styles the submit button*/
+.submit {
+    background-color:rgb(84, 84, 226) ;
+    border-color: white;
+    border-style: outset;
+    border-radius: 50%;
+    border-width: 3px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+}
+.submit:hover {
+    font-size: 18px;
+    background-color:rgb(49, 49, 166) ;
+}
+/*this styles the dropdown box*/
+.dropdown {
+    font-size: 16px;
+}
